@@ -677,8 +677,7 @@ linear-gradient(200deg,
 }
 
 .front_article {
-  text-align: justify;
-
+  text-align: center;
     font-size: 1em;
     line-height: 1.3em;
     color: black;
@@ -1835,7 +1834,7 @@ iframe {
   display: block;
   margin: 25px auto 30px auto;
   margin-top: 60px;
-  margin-bottom: -32px;
+  margin-bottom: -2px;
 }
 
 #resolution_student {
@@ -1901,6 +1900,9 @@ iframe {
 @media screen and (min-width: 430px) {
 #resolution_partners {
   font-size: 1.1em;
+  }
+#student_logo_width {
+  margin-bottom: 40px;
   }
 }
 
